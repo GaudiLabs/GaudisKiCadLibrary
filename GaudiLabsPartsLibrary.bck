@@ -45,6 +45,11 @@ D Arduino Micro shield
 K arduino, micro
 $ENDCMP
 #
+$CMP Battery_Cell_2x
+D single battery cell
+K battery cell
+$ENDCMP
+#
 $CMP DC_JACK
 D DC PLUG
 K plug
@@ -145,6 +150,11 @@ $ENDCMP
 #
 $CMP RGB_TOPLED
 D LED RGB 6 pins, exposed pad
+$ENDCMP
+#
+$CMP SW_2P3T
+D Single Pole Single Throw (SPST) switch, separate symbol
+K switch lever
 $ENDCMP
 #
 $CMP TCA0274
